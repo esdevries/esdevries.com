@@ -1,5 +1,6 @@
 <script>
     import Nav from '$lib/nav.svelte'
+    import Foot from '$lib/foot.svelte'
     import '../styles/style.css'
 </script>
 
@@ -10,3 +11,7 @@
 <main>
     <slot></slot>
 </main>
+
+<footer>
+    <Foot />
+</footer>

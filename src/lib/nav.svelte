@@ -9,10 +9,15 @@
 <style>
     a {
         text-decoration: none;
-        font-size: large;
-        font-weight: 600;
+        font-size: x-large;
+        font-weight: 800;
         padding: 0.5rem;
         color: white;
+        transition: font-size 0.5s ease;
+    }
+
+    a:hover {
+        font-size: xx-large;
     }
 
     nav > a {
