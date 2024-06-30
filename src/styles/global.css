@@ -1,3 +1,18 @@
-h1 {
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+html {
+    display: grid;
+    font-family: "Rubik", sans-serif;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    max-width: 1600px;
+    width: 100%;
 }
