@@ -13,7 +13,7 @@
         font-weight: 800;
         padding: 0.5rem;
         color: white;
-        transition: font-size 0.5s ease;
+        transition: font-size 0.3s ease;
     }
 
     a:hover {
